@@ -1,0 +1,60 @@
+snippet -bs 
+	box-shadow: ${1:'h-shadow'} ${2:'v-shadow'} ${3:'blur'} ${4:'spread'} #${5:000} ${0:inset};
+snippet -br
+	border-radius: ${0:'length|%'};
+snippet -ts
+	text-shadow: ${1:'x-shadow'} ${2:'v-shadow'} ${3:'blur'} #${0:000};
+snippet -bgs
+	background-size: ${0:length|percentage|cover|contain};
+snippet -bgc
+	background-clip: ${0:border-box|padding-box|content-box};
+snippet -bgo
+	background-origin: ${0:padding-box|border-box|content-box};
+snippet -bfv
+	backface-visibility: ${0:visible|hidden};
+	-webkit-backface-visibility:$0; /* Chrome and Safari */
+	-moz-backface-visibility:$0; /* Firefox */
+	-ms-backface-visibility:$0; /* Internet Explorer */
+snippet -bblr
+	border-bottom-left-radius: ${0:'length|%'};
+snippet -bbrr
+	border-bottom-right-radius: ${0:'length|%'};
+snippet -btlr
+	border-top-left-radius: ${0:'length|%'};
+snippet -btrr
+	border-top-right-radius: ${0:'length|%'};
+snippet -cg
+	column-gap:${0:'length'|normal};
+	-moz-column-gap:$0; /* Firefox */
+	-webkit-column-gap:$0; /* Safari and Chrome */
+snippet -cr
+	column-rule:${1:'column-rule-width'} ${2:'column-rule-style'} #${0:000};
+	-moz-column-rule: $1 $2 #$0; /* Firefox */
+	-webkit-column-rule:$1 $2 #$0; /* Safari and Chrome */
+snippet -crc
+	column-rule-color:#${0:000};
+	-moz-column-rule-color:#$0; /* Firefox */
+	-webkit-column-rule-color:#$0; /* Safari and Chrome */
+snippet -crs
+	column-rule-style:${0:none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset};
+	-moz-column-rule-style:$0; /* Firefox */
+	-webkit-column-rule-style:$0; /* Safari and Chrome */
+snippet -crw
+	column-rule-width:${0:'length'|thin|medium|thick};
+	-moz-column-rule-width:$0; /* Firefox */
+	-webkit-column-rule-width:$0; /* Safari and Chrome */
+snippet -cs
+	column-span:${0:1|all};
+	-webkit-column-span:$0; /* Safari and Chrome */
+snippet -cw
+	column-width:${0:'length'|auto};
+	-moz-column-width:$0; /* Firefox */
+	-webkit-column-width:$0; /* Safari and Chrome */
+snippet -c
+	columns:${1:'column-width'} ${0:'column-count'};
+	-webkit-columns:$1 $0; /* Safari and Chrome */
+	-moz-columns:$1 $0; /* Firefox */
+snippet -cc
+	column-count:${0:'number'|auto};
+	-moz-column-count:$0; /* Firefox */
+	-webkit-column-count:$0; /* Safari and Chrome */

@@ -58,3 +58,33 @@ snippet -cc
 	column-count:${0:'number'|auto};
 	-moz-column-count:$0; /* Firefox */
 	-webkit-column-count:$0; /* Safari and Chrome */
+snippet -tof
+	text-overflow: ${0:'string'|clip|ellipsis};
+snippet -tf
+	transform:${0:'transform-function'|snone};
+	-ms-transform:$0; /* IE 9 */
+	-webkit-transform:$0 /* Safari and Chrome */
+snippet -to
+	transform: ${0:'transform-functions'|none};
+	transform-origin: ${1:x-axis} ${2:y-axis} ${3:0};
+	-ms-transform: $0; /* IE 9 */
+	-ms-transform-origin: $1 $2 $3; /* IE 9 */
+	-webkit-transform: $0; /* Safari and Chrome */
+	-webkit-transform-origin: $1 $2 $3; /* Safari and Chrome */
+snippet -t
+	transition: ${1:'property'} ${2:'duration'} ${3:'timing-function'} ${0:'delay'}; 
+	-webkit-transition: $1 $2 $3 $0; /* Safari */
+snippet -tp
+	transition-property:${0:'property'|none|all};
+	-moz-transition-property: $0; /* Firefox 4 */
+	-webkit-transition-property:$0; /* Safari and Chrome */
+	-o-transition-property:$0; /* Opera */
+snippet -tdr
+	transition-duration: ${0:'2s'};
+	-webkit-transition-duration: $0; /* Safari */
+snippet -ttf
+	transition-timing-function: ${0:linear|ease|ease-in|ease-out|ease-in-out|cubic-bezier(n,n,n,n)};
+	-webkit-transition-timing-function: $0; /* Safari and Chrome */
+snippet -tdl
+	transition-delay: ${0:2s};
+	-webkit-transition-delay: $0; /* Safari */
